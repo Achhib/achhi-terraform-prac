@@ -3,3 +3,9 @@ variable "iam_user_value" {
     description = "IAM user creation "
   
 }
+
+variable "iam_role_value" {
+    type = string
+    description = "IAM role creation "
+  
+}
